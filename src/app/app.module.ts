@@ -24,11 +24,10 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
   text:"Loading...",
   textColor:"#FFFFFF",
   textPosition:"center-center",
-  bgsColor:"#7b1fa2",
-  fgsColor:"#7b1fa2",
-  fgsType:SPINNER.squareJellyBox,
-  fgsSize:100,
-  hasProgressBar:false
+  bgsColor:"red",
+  fgsColor:"red",
+  fgsType:SPINNER.threeBounce,
+  fgsSize:100, 
 }
 
 @NgModule({
